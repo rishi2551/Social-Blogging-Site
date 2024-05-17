@@ -1,0 +1,94 @@
+.reset-body{
+    margin-top: 100px;
+
+}
+.reset-tittle{
+    font-size: xx-large;
+    padding: 5px;
+}
+.reset-newpassword-div{
+    padding: 5px;
+}
+.reset-comfirmpassword-div{
+    padding: 5px;
+}
+.reset-button-div{
+    padding: 5px;
+}
+.reset-newpassword{
+    font-weight: 300;
+
+}
+.reset-comfirmpassword{
+    font-weight: 300;
+}
+.reset-newpassword-input{
+    width: 320px;
+    height: 31px;
+    border:1px solid;
+    border-left: none;
+    
+}
+.reset-comfirmpassword-input{
+    width: 320px;
+    height: 31px;
+    border:1px solid;
+    border-left: none;
+}
+.reset-button{
+    width: 355px;
+    height: 30px;
+    background-color: rgba(1, 1, 10, 0.653);
+    border: none;
+    color: aliceblue;
+
+}
+.reset-comfirmpassword-input-div{
+    /* padding: 5px; */
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.reset-email{
+    font-weight: 300;
+}
+.reset-email-input-div{
+    padding-top: 5px;
+}
+.reset-email-input{
+    width: 352px;
+    height: 31px;
+    border: 1px solid;
+}
+.reset-email-div{
+    padding: 5px;
+}
+.reset-newpassword-input-div{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.reset-input-icon{
+    border:1px solid;
+    height: 33px;
+    text-align: center;
+    align-content: center;
+    width: 30px;
+    border-right: none;
+    
+    
+}
+.lockalt{
+    font-size: 20px;
+    
+}
+
+.userlock{
+    font-size: 100px;
+}
+.reset-icon-div{
+    
+    padding: 5px;
+    text-align: center;
+}

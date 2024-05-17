@@ -1,0 +1,110 @@
+.container3{
+    margin: auto;
+    max-width: 1400px;
+  }
+  .body1{
+    max-width: 1200px;
+  }
+  .end-header{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color: #6C757D;
+  }
+  .end-inside-header{
+    display: grid;
+    grid-template-columns: 2rem 15fr 10fr 10fr 10fr 2rem;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 15px;
+  
+  }
+  .list{
+    font-weight: lighter;
+    list-style-type: none;
+    font-size: smaller;
+    /* justify-content: space-between; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .list2{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+  
+    /* justify-content: space-around; */
+    font-size: x-large;
+    /* position: relative; */
+    margin: auto;
+    /* right: 8px; */
+    
+  }
+  .training{
+    display: flex;
+    /* margin-bottom: 5px; */
+    font-weight: bold;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin: 0 ;
+  }
+  .blog{
+    color: rgb(208, 5, 5);
+    margin-left: 5px;
+    font-size: x-large;
+    font-family: sans-serif;
+    
+  }
+  .category{
+    display: grid;
+    grid-column: 3/4;
+    justify-content: center;
+    align-content: center;
+  }
+  .training-blog-content{
+    max-width: 380px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    
+    
+    
+  }
+  .training-blog{
+    margin-top: 15px;
+    display: grid;
+    grid-column: 2/3;
+    
+  }
+  .follow-us-on{
+   
+    display: grid;
+    grid-column:5/6 ;
+    
+    justify-content: left;
+
+  
+  }
+  .get-in-touch{  
+    display: grid;
+    grid-column:4/5 ;
+    align-content: start;
+    justify-content: start;
+  }
+  .end{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    border-top-style:solid ;
+    border-width: 2px;
+    border-top-color:rgb(210, 206, 206) ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+  }
+  .end-training{
+    padding-left:-20px;
+    display: flex;
+  }
+  .copyright{
+    font-size: large;
+    top: 10 px;
+  }

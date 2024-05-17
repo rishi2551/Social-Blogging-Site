@@ -1,0 +1,139 @@
+.main-div-detail-page{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 92%;
+    margin: auto;
+    display: flex;
+}
+.detail-page-main-image{
+    max-width: 900px;
+    height: 100%;
+    margin: auto;
+}
+.blog-detail-div-comment{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.blogdetail-page-show-comment{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.blogdetail-input-comment{
+    width:92% ;
+    height: 60px;
+}
+.blogdetail-div-input-comment{
+padding-top:70px ;
+}
+.main-div-comment{
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+    margin:0 auto; 
+    width: 400px;
+    
+}
+.blog-main-div-comment{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.blogdetail-div-nocomment{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.detail-page-main-img{
+    width: 100%;
+
+    border-image: fill 0 linear-gradient(#0003,#000);
+}
+.detail-page-main-title{
+    display: grid;
+    grid-column: 1/3;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.detail-page-main-description{
+    display: grid;
+    grid-column: 1/4;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.detail-page-main-content{
+    display: grid;
+    max-width: 1400px;
+    grid-template-columns:10fr 50fr 10fr;
+    margin: auto;
+}
+.detail-page-main-comment{
+    display: grid;
+    grid-column: 3/4;
+}
+
+
+
+
+.card {
+    width: 450px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .chat-window {
+    height: 500px;
+    overflow-y: scroll;
+  }
+  
+  .message-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .send-button {
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  }

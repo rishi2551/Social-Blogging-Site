@@ -1,0 +1,64 @@
+.contain1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 400px;
+    padding: 30px;
+    padding-right: 10px;
+    margin: 0px auto;
+
+}
+.forgot-body{
+    margin-top: 180px;
+
+}
+.forgot-tittle{
+    font-size: xx-large;
+    padding: 5px;
+}
+.forgot-description{
+    font-size: large;
+    font-weight: lighter;
+    padding: 5px;
+}
+.forgot-input-div{
+    padding: 5px;
+}
+.forgot-input-tittle{
+    font-size: large;
+
+    font-weight:300;
+}
+.forgot-input-email{
+    width: 350px;
+    height: 30px;
+}
+.forgot-input-email-div{
+    padding-top: 5px;
+
+}
+.forgot-button{
+    width: 358px;
+    height: 30px;
+    background-color: rgba(1, 1, 10, 0.653);
+    border: none;
+    color: aliceblue;
+}
+.forgot-button-div{
+    padding: 5px;
+}
+.forgot-link{
+    text-decoration: none;
+    opacity: 80%;
+    color: black;
+}
+.forgot-link-div{
+    padding: 5px;
+}
+.forgot-icon-div{
+
+    padding: 5px;
+    text-align: center;
+}
+.fill-lock{
+    font-size: 100px;
+
+}

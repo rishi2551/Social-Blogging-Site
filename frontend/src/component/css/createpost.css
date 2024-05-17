@@ -1,0 +1,97 @@
+.main{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-top: 10px;
+
+    max-width: 300px;
+    margin:50px auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.Title{
+    max-width: 250px;
+ text-align: start;
+ margin: auto;
+margin-bottom: 20px;
+ 
+}
+.description{
+
+    max-width: 250px;
+ text-align: start;
+ margin: auto;
+ margin-bottom: 20px;
+}
+.file{
+    margin-bottom: 20px;
+}
+.body14{
+    max-width: 1150px;
+    margin: 0px auto;
+    
+    padding-bottom: 20px;
+}
+.cont{
+    max-width: 1400px;
+    /* background-color:#CED4DA; */
+    margin:0px auto;
+    padding-top: 20px;
+    background: #CED4DA;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.861);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+
+}
+.titl{
+    /* border-radius: 20px; */
+    border: none;
+    height: 25px;
+    width: 250px;
+    opacity: 90%;   
+    border-bottom: 2px solid;
+
+}
+.des{
+    border: none;
+    height: 25px;
+    /* border-radius: 20px; */
+    width: 250px; 
+    opacity: 90%;
+    border-bottom: 2px solid;
+    /* background-color: aliceblue; */
+}
+.b{
+    padding-bottom: 20px;
+}
+::-webkit-file-upload-button{
+    height: 28px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    background-color:rgba(1, 1, 10, 0.653);
+    
+}
+.b5{
+    width:150px;
+    height:36px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+   background-color:  rgb(208, 5, 5);
+}

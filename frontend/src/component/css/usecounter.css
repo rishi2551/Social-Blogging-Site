@@ -1,0 +1,51 @@
+.use-counter-body{
+    background-image: url(/public/pexels-photo-619419.webp);
+    background-size: cover;
+    height: 1000px;
+}
+.use-counter-practical{
+    font-size: 50px;
+    color: white;
+
+}
+.use-counter-test{
+    position: relative;
+    
+}
+.use-counter-display{   
+    color: white;
+}
+.use-counter-button{
+    padding-right: 20px;
+    max-width:330px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.use-counter-output{
+    color: white;
+
+}
+.use-counter-text{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-decoration:white underline;
+}
+.use-counter-b1{
+    border-radius: 10px;
+    height: 28px;
+    width: 100px;
+    background-color: white;
+    font-size: medium;
+}
+.use-counter-text2{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 115px;
+}
+.use-counter-container{
+    
+    margin-left: 200px;
+    
+
+}
