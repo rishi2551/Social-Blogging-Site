@@ -93,7 +93,7 @@ const Login = () => {
               </div>
               <div className="forgot"><Link className="forgot" to="/forgot">Forgot password</Link></div>
               <div className="button1">
-                <button className="b1" onClick={()=>{handleSubmit()}}>
+                <button className="b1" onClick={()=>handleSubmit()}>
                   login
                 </button>
               </div>
