@@ -1,5 +1,7 @@
 import "./css/header.css";
 import { Link, useNavigate } from "react-router-dom";
+import logo from "../image/adventure-archive-high-resolution-logo-transparent (1).png";
+import logo1 from "../image/2406722-removebg.png"
 // import logo from "../image/echoes-high-resolution-logo.png";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
@@ -26,12 +28,12 @@ const Upperheader = () => {
         <header className="header2">
         <div className="container3">
           <div className="inside-header">
-            <div
+          <div
               className="right-top-inside-header"
-              onClick={() => navigation("/main")}
+              onClick={() => navigate("/main")}
             >
-              TRAVEL 
-              {/* <img className="logo-image" src={logo} alt="" /> */}
+              <img className="logo-image1" src={logo1} alt="" />
+               <img className="logo-image" src={logo} alt="" /> 
             </div>
             <div className="left-top-inside-header">
               <div className="image-inside-header">
