@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { logindetailapi } from "../API/endpoint";
 const Login = () => {
   const navigate = useNavigate();
   const [logindetail, setLogindetail] = useState({
@@ -22,7 +23,7 @@ const Login = () => {
     }
     else if  (Object.keys(errors).length === 0) {
       // const res = await axios.post("http://localhost:7061/auth/login",logindetail);
-      const res= await logindetail(logindetail)
+      const res= await logindetailapi(logindetail)
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("userId",res.data.userId);
