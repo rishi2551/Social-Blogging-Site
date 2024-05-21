@@ -10,6 +10,7 @@ const Main = () => {
     <>
       <div>
         <Blogpost></Blogpost>
+        
         <Footer></Footer>
         <>
           <div className="wrapper" onClick={()=>navigate("/createpost")} >

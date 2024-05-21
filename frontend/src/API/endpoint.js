@@ -9,6 +9,18 @@ const API = axios.create({
     // "Content-Type": "application/json",
   },
 });
+API.interceptors.response.use(
+  async(res)=>{
+    return res;
+  },
+  (error)=>{
+    if(error.response?.status === 401){
+      throw error;
+    }
+    throw error;
+  }
+);
+
 export const addblog = (formData) => API.post("blog/createblog",formData);
 export const getData = () => API.get("/blog/getpost");
 export const getDatadetail = (id) => API.get(`/blog/postblog/${id}`);
@@ -38,3 +50,5 @@ export const resetpassword=(email,resetpassworddata)=>API.post(`/auth/reset-pass
 export const filterAPI=(title,created_date)=>API.get(`/blog/filter?title=${title}&created_date=${created_date}`)
 
 export const searchAPI=(searchdata)=>API.get(`/blog/search?searchtext=${searchdata}`)
+
+export const changepasswordapi=(passworddata,userId)=>API.patch(`/auth/change-password/${userId}`,passworddata)

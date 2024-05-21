@@ -9,7 +9,7 @@
     --border-radius: var(--height);
     width: var(--width);
     height: var(--height);
-    position: sticky;
+    position: fixed;
    bottom: 10px;
    left: 1350px;
     border-radius: var(--border-radius);

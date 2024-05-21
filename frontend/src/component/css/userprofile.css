@@ -128,10 +128,28 @@
 .background2{
     max-width: 1400px;
     margin:0px auto;  
-    background-color:#ccdcf2;
+    /* background-color:#ccdcf2; */
     padding: 20px;
     padding-left: 50px;
     margin-bottom: 0px;
+    background: #CED4DA;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.861);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
     /* padding-bottom: 3px; */
 }
 

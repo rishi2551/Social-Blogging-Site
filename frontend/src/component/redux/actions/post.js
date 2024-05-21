@@ -1,6 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import {  CommentDo, addblog, deletecomment, deletepost, filterAPI, getData, getDatadetail, getprofile, searchAPI, updatepost, updateuserprofile, usercoverpic, userprofilepic } from "../../../API/endpoint";
+import {  CommentDo, addblog, changepasswordapi, deletecomment, deletepost, filterAPI, getData, getDatadetail, getprofile, searchAPI, updatepost, updateuserprofile, usercoverpic, userprofilepic } from "../../../API/endpoint";
 import Userprofile from "../../user-profile";
+import Changepassword from "../../changepassword";
 
 export const getpost=createAsyncThunk("blog/getpost",async()=>{
     try {
@@ -124,5 +125,15 @@ export const profilephotohandle=createAsyncThunk('/blog/profilephotohandle',asyn
     }
     catch(err){
         console.log(err)
+    }
+})
+export const handlechangepassword=createAsyncThunk('/blog/handlechangepassword',async({passworddata,userId})=>{
+    console.log(passworddata,"4565885")
+    console.log(userId,"64814")
+    try {
+        const res=await changepasswordapi(passworddata,userId)
+        return res.data
+    } catch (error) {
+        console.log(error)        
     }
 })

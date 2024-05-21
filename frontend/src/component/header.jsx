@@ -1,7 +1,8 @@
 import "./css/header.css";
 import { Link, useNavigate } from "react-router-dom";
 // import { filterAPI, getData, getprofile, searchAPI } from "../API/endpoint";
-import logo from "../image/adventure-archive-high-resolution-logo-transparent.png";
+import logo from "../image/adventure-archive-high-resolution-logo-transparent (1).png";
+import logo1 from "../image/2406722-removebg.png"
 import { useEffect, useState } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
@@ -59,7 +60,7 @@ const Header = () => {
               className="right-top-inside-header"
               onClick={() => navigate("/main")}
             >
-              
+              <img className="logo-image1" src={logo1} alt="" />
                <img className="logo-image" src={logo} alt="" /> 
             </div>
             <div className="left-top-inside-header">
@@ -88,9 +89,9 @@ const Header = () => {
                   <Link id="top" to="/userprofile">
                     {Profile?.user?.username}
                   </Link>
-                  <a id="middle" href="#">
+                  <Link id="middle" to={`/changepassword/${profileId}`}>
                     Change Password
-                  </a>
+                  </Link>
                   <Link id="bottom" to="/" onClick={()=>logout()} >
                     LogOut
                   </Link>

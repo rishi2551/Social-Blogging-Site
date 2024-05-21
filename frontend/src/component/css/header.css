@@ -86,6 +86,9 @@
     
 
   }
+  .logo-image1{
+    max-width: 5rem;
+  }
   .logo-div-image{
     grid-column: 1/2;
   }

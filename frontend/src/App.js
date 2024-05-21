@@ -20,6 +20,7 @@ import Forgot from "./component/forgot";
 import Reset from "./component/reset";
 import Blogdetail from "./component/blogdetail";
 import Usecounter from "./component/usecounter";
+import Changepassword from "./component/changepassword";
 function App1() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
@@ -64,6 +65,7 @@ function App1() {
         ></Route>
         <Route path="/forgot" element={<Forgot></Forgot>}></Route>
         <Route path="/reset/:email" element={<Reset></Reset>}></Route>
+        <Route path="/changepassword/:id" element={<Changepassword></Changepassword>}></Route>
       </Routes>
     </>
   );
