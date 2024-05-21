@@ -21,7 +21,7 @@ API.interceptors.response.use(
   }
 );
 
-export const addblog = (formData) => API.post("blog/createblog",formData);
+export const addblog = (formData) => API.post("/blog/createblog",formData);
 export const getData = () => API.get("/blog/getpost");
 export const getDatadetail = (id) => API.get(`/blog/postblog/${id}`);
 export const signupdetail =(signupdata)=> API.post("/auth/signup",signupdata)
