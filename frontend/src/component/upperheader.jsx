@@ -10,7 +10,7 @@ import {
   profilehandle,
 } from "./redux/actions/post";
 const Upperheader = () => {
-  const navigation = useNavigate();
+  const navigate = useNavigate();
   const profileId = localStorage.getItem("userId");
   const { Profile } = useSelector((state) => state.Posts);
   const dispatch = useDispatch();
