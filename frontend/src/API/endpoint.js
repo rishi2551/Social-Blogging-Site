@@ -25,6 +25,7 @@ export const addblog = (formData) => API.post("blog/createblog",formData);
 export const getData = () => API.get("/blog/getpost");
 export const getDatadetail = (id) => API.get(`/blog/postblog/${id}`);
 export const signupdetail =(signupdata)=> API.post("/auth/signup",signupdata)
+export const logindetail =(logindata)=> API.post("/auth/login",logindata)
 export const deletepost =(id)=> API.delete(`/blog/deletepost/${id}`)
 export const updatepost=(formdata,id)=>API.put(`/blog/updateblog/${id}`,formdata)
 export const UpdatewithPatch=(id,updated)=>API.patch(`/blog/update/${id}`,updated);

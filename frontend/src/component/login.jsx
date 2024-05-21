@@ -21,7 +21,8 @@ const Login = () => {
       error.password = "password is required";
     }
     else if  (Object.keys(errors).length === 0) {
-      const res = await axios.post("http://localhost:7061/auth/login",logindetail);
+      // const res = await axios.post("http://localhost:7061/auth/login",logindetail);
+      const res= await logindetail(logindetail)
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("userId",res.data.userId);
