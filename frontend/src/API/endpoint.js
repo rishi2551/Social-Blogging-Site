@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:7061";
+const BASE_URL = "https://adventure-archive-br4b.onrender.com";
 const token = localStorage.getItem("token");
 const API = axios.create({
   baseURL: BASE_URL,

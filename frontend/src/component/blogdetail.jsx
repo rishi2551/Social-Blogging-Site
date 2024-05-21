@@ -66,7 +66,7 @@ console.log(update)
           <div className="detail-page-main-image">
             <img
               className="detail-page-main-img"
-              src={`http://localhost:7061/${update.image}`}
+              src={`https://adventure-archive-br4b.onrender.com/${update.image}`}
               alt=""
             />
           </div>

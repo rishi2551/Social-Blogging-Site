@@ -108,12 +108,12 @@ console.log(Profile.user)
       {showfirstcode ? (
         <div className="background">
           <div className="cover-image">
-            <img src={`http://localhost:7061/${Profile.user?.coverPhoto}`} className="cover-img" alt="" />
+            <img src={`https://adventure-archive-br4b.onrender.com/${Profile.user?.coverPhoto}`} className="cover-img" alt="" />
           </div>
           <div className="profile-main-div">
             <div className="profile-image1">
               <img
-                src={`http://localhost:7061/${Profile.user?.profilePhoto}`}
+                src={`https://adventure-archive-br4b.onrender.com/${Profile.user?.profilePhoto}`}
                 className="profile-img"
                 alt=""
               />
@@ -177,7 +177,7 @@ console.log(Profile.user)
         <div>
          {posts?.map((item, index) => {
             return <SwiperSlide>
-            <img src={`http://localhost:7061/${item.image}`} />
+            <img src={`https://adventure-archive-br4b.onrender.com/${item.image}`} />
           </SwiperSlide>
           })}</div>
       
