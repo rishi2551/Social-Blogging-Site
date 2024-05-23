@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:7061";
+const BASE_URL = "https://adventure-archive-76s9.onrender.com";
 const token = localStorage.getItem("token");
 const API = axios.create({
   baseURL: BASE_URL,
@@ -21,7 +21,7 @@ API.interceptors.response.use(
   }
 );
 
-export const addblog = (formData) => API.post("blog/createblog",formData);
+export const addblog = (formData) => API.post("/blog/createblog",formData);
 export const getData = () => API.get("/blog/getpost");
 export const getDatadetail = (id) => API.get(`/blog/postblog/${id}`);
 export const signupdetail =(signupdata)=> API.post("/auth/signup",signupdata)
