@@ -1,9 +1,9 @@
 import "./css/header.css";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../image/adventure-archive-high-resolution-logo-transparent (1).png";
-import logo1 from "../image/2406722-removebg.png"
 // import logo from "../image/echoes-high-resolution-logo.png";
 import { useEffect } from "react";
+import logo from "../image/adventure-archive-high-resolution-logo-transparent (1).png";
+import logo1 from "../image/2406722-removebg.png"
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import {
@@ -39,7 +39,7 @@ const Upperheader = () => {
               <div className="image-inside-header">
                 <img
                   class="image-top-inside-header-profile"
-                  src={`https://adventure-archive-br4b.onrender.com/${Profile?.user?.profilePhoto}`}
+                  src={`http://localhost:7061/${Profile?.user?.profilePhoto}`}
                 />
               </div>
               <div class="paste-button">

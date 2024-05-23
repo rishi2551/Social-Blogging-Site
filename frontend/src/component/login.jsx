@@ -27,13 +27,13 @@ const Login = () => {
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("userId",res.data.userId);
-        alert("login successfully")
+        
         navigate("/main");
       }
     }
     setErrors(error);
   };
-  // const notify = () => toast("Login Successfully");
+  const notify = () => toast("Login Successfully");
 
   return (
     <>
@@ -93,7 +93,7 @@ const Login = () => {
               </div>
               <div className="forgot"><Link className="forgot" to="/forgot">Forgot password</Link></div>
               <div className="button1">
-                <button className="b1" onClick={()=>handleSubmit()}>
+                <button className="b1" onClick={()=>{handleSubmit();notify()}}>
                   login
                 </button>
               </div>

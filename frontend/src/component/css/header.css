@@ -29,10 +29,7 @@
     display: grid;
     grid-template-columns: 2rem 60fr 90fr 30fr 2rem;
     margin: auto;
-    justify-content: space-between;
-    /* padding-top: 16px; */
-    /* padding-bottom: 16px; */
-    
+    justify-content: space-between;    
     width: 100%;
   }
   .inside-header2{
@@ -109,9 +106,6 @@
     font-size: x-large;
   }
   .name{
-    /* margin-right: 30px;
-    margin-top:20px;  */
-  
     font-size: xx-large;
     margin-left: 10px;
     
@@ -136,7 +130,6 @@
  align-content: center;
   }
   .search{
-    /* padding-right: 150px; */
     color:#6C757D;
   }
   .search1{
@@ -149,9 +142,7 @@
     color:#F8F9FA;
   }
   .select{
-    /* width: 180px; */
     border-radius: 20px;
-    /* height: 30px; */
     border: none;
     background-color:#CED4DA;
     width: 200px;

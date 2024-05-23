@@ -209,7 +209,7 @@ const Card = ({ item, render, setRender }) => {
             <div className="main-image">
               <img
                 className="main-img"
-                src={`https://adventure-archive-br4b.onrender.com/${item.image}`}
+                src={`http://localhost:7061/${item.image}`}
                 alt="profile"
               />
             </div>
@@ -223,7 +223,7 @@ const Card = ({ item, render, setRender }) => {
               <div className="i1">
                 <img
                   className="image-top-inside-header"
-                  src={`https://adventure-archive-br4b.onrender.com/${Profile?.user?.profilePhoto}`}
+                  src={`http://localhost:7061/${Profile?.user?.profilePhoto}`}
                   alt="profile"
                 />
               </div>

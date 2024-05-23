@@ -67,7 +67,7 @@ const Header = () => {
               <div className="image-inside-header">
                 <img
                   class="image-top-inside-header-profile"
-                  src={`https://adventure-archive-br4b.onrender.com/${Profile?.user?.profilePhoto}`}
+                  src={`http://localhost:7061/${Profile?.user?.profilePhoto}`}
                 />
               </div>
               {/* <div className="name">
