@@ -53,6 +53,7 @@ const Card = ({ item, render, setRender }) => {
       console.log(error);
     }
   };
+
   const handledelete = async (id) => {
     try {
       dispatch(postdelete(id));
@@ -209,7 +210,7 @@ const Card = ({ item, render, setRender }) => {
             <div className="main-image">
               <img
                 className="main-img"
-                src={`https://adventure-archive-76s9.onrender.com/${item.image}`}
+                src={`${process.env.REACT_APP_API}/${item.image}`}
                 alt="profile"
               />
             </div>
@@ -223,7 +224,7 @@ const Card = ({ item, render, setRender }) => {
               <div className="i1">
                 <img
                   className="image-top-inside-header"
-                  src={`https://adventure-archive-76s9.onrender.com/${Profile?.user?.profilePhoto}`}
+                  src={`${process.env.REACT_APP_API}/${Profile?.user?.profilePhoto}`}
                   alt="profile"
                 />
               </div>

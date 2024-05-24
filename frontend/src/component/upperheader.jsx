@@ -39,7 +39,7 @@ const Upperheader = () => {
               <div className="image-inside-header">
                 <img
                   class="image-top-inside-header-profile"
-                  src={`https://adventure-archive-76s9.onrender.com/${Profile?.user?.profilePhoto}`}
+                  src={`${process.env.REACT_APP_API}/${Profile?.user?.profilePhoto}`}
                 />
               </div>
               <div class="paste-button">

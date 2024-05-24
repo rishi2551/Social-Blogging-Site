@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { logindetailapi } from "../API/endpoint";
 const Login = () => {
+  const[loading,setLoading]=useState(false);
   const navigate = useNavigate();
   const [logindetail, setLogindetail] = useState({
     email: "",
@@ -37,6 +38,7 @@ const Login = () => {
 
   return (
     <>
+    
       <div className="body12">
         <div className="contain">
           <div className="container1">

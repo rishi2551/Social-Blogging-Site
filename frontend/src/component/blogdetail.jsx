@@ -66,7 +66,7 @@ console.log(update)
           <div className="detail-page-main-image">
             <img
               className="detail-page-main-img"
-              src={`https://adventure-archive-76s9.onrender.com/${update.image}`}
+              src={`${process.env.REACT_APP_API}/${update.image}`}
               alt=""
             />
           </div>
